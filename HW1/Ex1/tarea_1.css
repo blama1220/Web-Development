@@ -1,0 +1,83 @@
+.bg {
+  /* The image used */
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3em;
+  margin-left: 15px;
+  align-content: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+
+#title {
+  font-size: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#size {
+  width: 250px;
+  height: 300px;
+}
+#size2 {
+  width: 100rem;
+  height: 50rem;
+}
+#container {
+  height: 100%;
+  width: 100%;
+  font-size: 0;
+}
+#left,
+#middle,
+#right {
+
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  font-size: 25px;
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 0%;
+}
+/* #left {width: 15%; margin-left: 10%;}
+#middle {width: 15%;}
+#right {width: 17.5%; margin-right: 10%;} */
+
+.post-container {
+  margin: 20px 20px 0 0;
+  border: 5px solid #333;
+  overflow: auto;
+}
+
+/* #size{
+width: 100px; height: 100px;
+} */
+.post-thumb {
+  float: left;
+}
+.post-thumb img {
+  display: block;
+}
+.post-content {
+  margin-left: 210px;
+}
