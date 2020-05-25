@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Form practice</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form
+      action="mailto:brianlama1220@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <label>
+        Write your name:
+        <input type="text" required />
+      </label>
+      <br /><br />
+      <label>
+        Enter your password:
+        <input type="password" required />
+      </label>
+      <br /><br />
+      <label>
+        Send me a photo of you:
+        <input type="file" />
+      </label>
+      <br /><br />
+      This manual seems:
+      <br />
+      <label><input type="radio" name="gender" /> Very Good</label><br />
+      <label><input type="radio" name="gender" /> Good</label><br />
+      <label><input type="radio" name="gender" /> Bad</label><br />
+      <label><input type="radio" name="gender" /> Very Bad</label><br /><br />
+
+      <label>
+        <input type="checkbox" value="Boat" />
+        Notify me of updates
+      </label>
+      <br />
+      <br />
+      <input type="submit" /> <input type="reset" />
+    </form>
+
+    <script src="" async defer></script>
+  </body>
+</html>
