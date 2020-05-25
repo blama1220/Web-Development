@@ -1,0 +1,26 @@
+table{
+  font-family: arial, sans-serif;
+  font-size: 0.9em;
+  color: #E6F3FF;
+  border-collapse: collapse;
+  width: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+th,td {
+  border: 1px solid #333;
+  width: 700px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+.bg_gif{
+  background-image: url(https://media0.giphy.com/media/x25DEIHLGEVoc/source.gif);
+}
+
+.hover {
+  background-color: #FFFFCC;
+  color: rgb(143, 9, 54);
+}
