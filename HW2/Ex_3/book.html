@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Book</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="book.css" />
+  </head>
+  <body>
+    <form
+      action="mailto:brianlama1220@gmail.com"
+      method="POST"
+      enctype="text/plain"
+      name="miniform"
+
+    >
+      <h1>Guestbook</h1>
+      <b>Personal information:</b>
+      <br />
+
+      <label>
+        Name:
+        <input type="text" name="name" style="margin-bottom: 5px;" required />
+      </label>
+      <br />
+
+      <label>
+        Last Name:
+        <input type="text" name="lastname" required />
+      </label>
+
+      <br /><br />
+
+      <b>Enter a pseudonym and password:</b>
+      <br />
+
+      <label>
+        Pseudonym:
+        <input type="text" name="pseudonym" maxlength="16" required />
+      </label>
+      <label>
+        Password:
+        <input type="password" name="password" maxlength="12" required />
+      </label>
+      <br /><br />
+
+      <b>Otros datos:</b>
+      <div class="row">
+        <div class="column">
+          <label>
+            Age:
+            <br />
+            <label><input type="radio" name="age" /> 0 - 10</label><br />
+            <label><input type="radio" name="age" /> 11 - 20</label><br />
+            <label><input type="radio" name="age" /> 21 - 30</label><br />
+            <label><input type="radio" name="age" /> 31 - 40</label><br />
+            <label><input type="radio" name="age" /> +41</label>
+          </label>
+        </div>
+        <div class="column">
+          <label>
+            Where do you live?:
+            <br />
+            <label><input type="radio" name="place" /> Santiago</label><br />
+            <label><input type="radio" name="place" /> Santo Domingo</label
+            ><br />
+            <label><input type="radio" name="place" /> La Romana</label><br />
+            <label><input type="radio" name="place" /> San Cristobal</label
+            ><br />
+            <label
+              ><input type="radio" name="place" /> Other:
+              <input type="text" name="other_reason"
+            /></label>
+          </label>
+        </div>
+        <div class="column">
+          <label>
+            Hobbies:
+            <br />
+            <label><input type="checkbox" name="hobbies" /> Music</label><br />
+            <label><input type="checkbox" name="hobbies" /> Sport</label
+            ><br />
+            <label><input type="checkbox" name="hobbies" /> Paints</label
+            ><br />
+            <label><input type="checkbox" name="hobbies" /> Readings</label
+            ><br />
+            <label
+              ><input type="checkbox" name="hobbies" /> Other:<input
+                type="text"
+                name="other_reason"
+            /></label>
+          </label>
+        </div>
+      </div>
+      <br />
+      <br />
+      <input type="submit" name="submit" /> <input type="reset" name="reset" />
+    </form>
+
+    <script src="" async defer></script>
+  </body>
+</html>

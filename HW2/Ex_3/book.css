@@ -1,0 +1,24 @@
+.column {
+  float: left;
+  /* width: 33.33%; */
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  font-family: "Montaga", serif;
+  background: #003973;
+  background: -webkit-linear-gradient(
+    to right,
+    #e5e5be,
+    #003973
+  ); 
+  background: linear-gradient(
+    to right,
+    #e5e5be,
+    #003973
+  );
+}
