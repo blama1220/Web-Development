@@ -1,0 +1,27 @@
+-Unobtrusive JavaScript
+Is a best practice methodology for attaching JavaScript to the front-end of a website. 
+It’s an ideal to strive toward and something we should bear in mind whenever we’re adding JavaScript to a site.
+
+It is the separation of behaviour from markup or structure. 
+Just like the CSS gurus of old taught us there should be a separation of layout from markup, there should be a separation of behaviour from markup. 
+That’s HTML for the content and structure of the document, CSS for the layout and style, and Unobtrusive JavaScript for behaviour and interactivity.
+
+
+
+Example: 
+<input type="button" id="btn" onclick="alert('Test')" />
+That is not unobstrusive javascript because behaviour and presentation are mixed. The onclick shouldn't be there in html and should be part of javascript itself not html.
+
+With above example, you can go unobstrusive like this:
+<input type="button" id="btn" />
+
+JavaScript:
+var el = document.getElementById('btn');
+el.onclick = function(){
+  alert('Test');
+};
+
+-What is Null and Undefined in JavaScript
+Null and Undefined are both data types in JavaScript.
+Undefined is a variable that has been declared but not assigned a value.
+Null as an assignment value. So you can assign the value null to any variable which basically means it’s blank.
