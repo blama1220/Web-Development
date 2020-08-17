@@ -3,11 +3,11 @@
 1. Change the styles of the exercises to global pages (tables and forms)
 2. Determine the CSS rules necessary to display the following table with the final appearance shown in the image (modify the HTML code deemed necessary by adding the appropriate class attributes).
 
-The table must first be encoded in HTML:
-![Alt text](Web-Development\HW2\Ex_1\img\img1.png)
+The table must first be encoded in HTML:<br />
+![](https://github.com/blama1220/Web-Development/blob/master/HW2/Ex_1/img/img1.png)
 
-The final result should be like the following:
-![Alt text](Web-Development\HW2\Ex_1\img\img2.png)
+The final result should be like the following:<br />
+![](https://github.com/blama1220/Web-Development/blob/master/HW2/Ex_1/img/img2.png)
 
 Fulfilling the following specifications:
 
